@@ -1,0 +1,34 @@
+ul.dynamic_sidebar_list{
+
+}
+.dynamic_sidebar_list li > .item { position: relative; padding: 2px 0px; margin: 4px 0px;  border: 1px solid #DDDDDD;-moz-border-radius:6px; background-color: #f9f9f9;}
+.dynamic_sidebar_list li > .item.active,.dynamic_sidebar_list li:nth-child(2n+1) > .item.active{background: #0073aa !important;}
+.dynamic_sidebar_list li .item.active span{color: #fff;}
+.dynamic_sidebar_list li:nth-child(2n+1) > .item {    background-color: #fff !important;}
+.dynamic_sidebar_list li span { display: block; padding: 5px 10px; color:#555; font-size:13px;}
+.dynamic_sidebar_list table span{display: inline;}
+.register_new_sidebar_ctr{
+    width: 100%;
+    float: left;
+    border-top: 1px solid #ccc;
+    display: none;
+}
+.register_new_sidebar_ctr table{width: 50%;}
+.dynamic_sidebar_list .actions{display: block;position: absolute;
+    top: 0;
+    right: 0;text-decoration: none;}
+.dynamic_sidebar_list .actions:focus,.dynamic_sidebar_list .actions:active{text-decoration:none;outline: none;box-shadow: none;}
+.dynamic_sidebar_list .actions .dashicons{
+    font-size: 20px;
+    height: 22px;
+}
+.dynamic_sidebar_list .actions.edit-sidebar:hover .dashicons{color: #0073aa;}
+.dynamic_sidebar_list .item.active .actions.edit-sidebar:hover .dashicons{color: #fff;}
+.dynamic_sidebar_list .actions.trash-sidebar:hover .dashicons{color: #d54e21;}
+.dynamic_sidebar_list .actions.edit-sidebar{right: 40px;}
+.edit_sidebar_ctr{
+    display: none;
+    border: 1px solid #DDDDDD;
+    background: #fff;
+    padding: 0 20px;
+}
